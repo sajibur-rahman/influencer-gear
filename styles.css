@@ -69,7 +69,49 @@ section {
   background-color: #ffffff;
   color: var(--common-color);
 }
+/* 
+---------------------------------
+page header 
+--------------------------------- */
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 97px;
+}
+.header_title {
+  font-size: 24px;
+  color: #3a3a3a;
+}
 
+.isDisplay ul {
+  display: flex;
+  justify-content: space-around;
+}
+.isDisplay > ul li {
+  list-style: none;
+  margin-left: 39px;
+}
+.isDisplay > ul li > a {
+  text-decoration: none;
+}
+.header_link a {
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.isDisplay {
+  display: block;
+}
+.header_icon {
+  font-size: 30px;
+}
+.isDisplay {
+  display: block;
+}
+.mobile_view {
+  display: none;
+}
 /* ----------------------- 
  fluencer section  styles
 -------------------  */
@@ -239,6 +281,19 @@ responsive styles
     top: 0;
   }
 
+  /* header section */
+  .page_header {
+    justify-content: space-evenly;
+  }
+  .header_title {
+    font-size: 20px;
+  }
+  .isDisplay {
+    display: none;
+  }
+  .mobile_view {
+    display: block;
+  }
   /* popular products */
 
   .products_container {
@@ -274,7 +329,9 @@ responsive styles
   }
 }
 
-/* tablet device */
+/* -------------------------------------
+tablet device
+------------------------------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
