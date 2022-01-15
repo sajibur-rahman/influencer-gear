@@ -169,6 +169,34 @@ feature products
   margin: 15px;
 }
 
+/* --------------------------------
+footer section 
+--------------------------------- */
+.footer {
+  height: 239px;
+  background-color: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer_header {
+  font-size: 24;
+}
+.footer_text {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.social_link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.fab {
+  color: #ffffff;
+  font-size: 25px;
+}
 /* -----------------------
 responsive styles 
 ---------------------- */
