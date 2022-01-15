@@ -123,8 +123,16 @@ page header
   position: relative;
   left: 70px;
   top: 0;
+  overflow: hidden;
+  /* transition: 2s; */
+  background-color: transparent;
 }
-
+.influencer_img img {
+  transition: 1.5s;
+}
+.influencer_img:hover img {
+  transform: scale(1.5);
+}
 /* -----------------
 popular products styles
 ------------------ */
